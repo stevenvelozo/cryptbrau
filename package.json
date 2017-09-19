@@ -1,0 +1,22 @@
+{
+  "name": "cryptbrau",
+  "version": "1.0.0",
+  "description": "Simple in-browser encryption (symmetric).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://stevenvelozo@github.com/stevenvelozo/cryptbrau.git"
+  },
+  "author": "steven velozo <steven@velozo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stevenvelozo/cryptbrau/issues"
+  },
+  "homepage": "https://github.com/stevenvelozo/cryptbrau#readme",
+  "dependencies": {
+    "simple-encryptor": "^1.1.0"
+  }
+}
