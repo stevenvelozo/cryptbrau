@@ -18,5 +18,8 @@
   "homepage": "https://github.com/stevenvelozo/cryptbrau#readme",
   "dependencies": {
     "simple-encryptor": "^1.1.0"
+  },
+  "devDependencies": {
+    "quackage": "^1.0.48"
   }
 }
