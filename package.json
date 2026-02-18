@@ -1,6 +1,6 @@
 {
   "name": "cryptbrau",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple in-browser encryption (symmetric).",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,6 @@
     "simple-encryptor": "^1.1.0"
   },
   "devDependencies": {
-    "quackage": "^1.0.48"
+    "quackage": "^1.0.51"
   }
 }

@@ -1,7 +1,7 @@
 {
     "SourceContentCatalog": {
         "URI~CONTENT~FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/.gitignore": {
-            "UUID": "d0d1a130-2c47-469d-bfb5-f80c911f8de2",
+            "UUID": "e81706b3-e7e4-4c0a-b1ec-a7600741b687",
             "Type": "URI",
             "Hash": "URI~CONTENT~FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/.gitignore",
             "Path": "FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/.gitignore",
@@ -36,7 +36,7 @@
             }
         },
         "URI~CONTENT~FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/Build.sh": {
-            "UUID": "9c112384-9368-45db-b36b-a38a1418c4b9",
+            "UUID": "3b4fcf25-6c7f-4cb8-98de-be9e1d46746f",
             "Type": "URI",
             "Hash": "URI~CONTENT~FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/Build.sh",
             "Path": "FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/Build.sh",
@@ -71,8 +71,44 @@
                 "Mode": 33261
             }
         },
+        "URI~CONTENT~FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/CONTRIBUTING.md": {
+            "UUID": "2a80f7d2-8f73-4696-b793-b511c8471ab4",
+            "Type": "URI",
+            "Hash": "URI~CONTENT~FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/CONTRIBUTING.md",
+            "Path": "FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/CONTRIBUTING.md",
+            "Location": "/Users/stevenvelozo/Code/retold/modules/pict/cryptbrau",
+            "Name": "CONTRIBUTING.md",
+            "MimeType": "text/markdown",
+            "Nature": "text",
+            "Format": "markdown",
+            "Schema": "Default",
+            "Content": "# Contributing to Retold\n\nWe welcome contributions to Retold and its modules. This guide covers the expectations and process for contributing.\n\n## Code of Conduct\n\nThe Retold community values **empathy**, **equity**, **kindness**, and **thoughtfulness**. We expect all participants to treat each other with respect, assume good intent, and engage constructively. These values apply to all interactions: pull requests, issues, discussions, and code review.\n\n## How to Contribute\n\n### Pull Requests\n\nPull requests are the preferred method for contributing changes. To submit one:\n\n1. Fork the module repository you want to change\n2. Create a branch for your work\n3. Make your changes, following the code style of the module you are editing\n4. Ensure your changes have test coverage (see below)\n5. Open a pull request against the module's main branch\n\n**Submitting a pull request does not guarantee it will be accepted.** Maintainers review contributions for fit, quality, and alignment with the project's direction. A PR may be declined, or you may be asked to revise it. This is normal and not a reflection on the quality of your effort.\n\n### Reporting Issues\n\nIf you find a bug or have a feature suggestion, open an issue on the relevant module's repository. Include enough detail to reproduce the problem or understand the proposal.\n\n## Test Coverage\n\nEvery commit must include test coverage for the changes it introduces. Retold modules use Mocha in TDD style. Before submitting:\n\n- **Write tests** for any new functionality or bug fixes\n- **Run the existing test suite** with `npm test` and confirm all tests pass\n- **Check coverage** with `npm run coverage` if the module supports it\n\nPull requests that break existing tests or lack coverage for new code will not be merged.\n\n## Code Style\n\nFollow the conventions of the module you are working in. The general Retold style is:\n\n- **Tabs** for indentation, never spaces\n- **Plain JavaScript** only (no TypeScript)\n- **Allman-style braces** (opening brace on its own line)\n- **Variable naming:** `pVariable` for parameters, `tmpVariable` for temporaries, `libSomething` for imports\n\nWhen in doubt, match what the surrounding code does.\n\n## Repository Structure\n\nEach module is its own git repository. The [retold](https://github.com/stevenvelozo/retold) repository tracks module organization but does not contain module source code. Direct your pull request to the specific module repository where your change belongs.\n",
+            "Labels": [
+                "__LABELSET_TYPE",
+                "FILE",
+                "__LABELSET_ADDRESS",
+                "__LABELSET_NAME",
+                "CONTRIBUTING",
+                "__LABELSET_EXTENSION",
+                ".md",
+                "__LABELSET_FILENAME",
+                "CONTRIBUTING.md",
+                "__LABELSET_FULLPATH",
+                "FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/CONTRIBUTING.md",
+                "__LABELSET_FORMAT",
+                "markdown",
+                "Default"
+            ],
+            "FSTAT": {
+                "Size": 2471,
+                "Created": "2026-02-17T16:54:22.752Z",
+                "Modified": "2026-02-17T16:54:22.752Z",
+                "Accessed": "2026-02-17T16:54:23.295Z",
+                "Mode": 33188
+            }
+        },
         "URI~CONTENT~FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/LICENSE": {
-            "UUID": "07ca5cf2-2a6a-43f7-93d0-c8b5da37b794",
+            "UUID": "9c10ef63-f681-4662-a635-4194dd2c8c32",
             "Type": "URI",
             "Hash": "URI~CONTENT~FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/LICENSE",
             "Path": "FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/LICENSE",
@@ -108,7 +144,7 @@
             }
         },
         "URI~CONTENT~FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/README.md": {
-            "UUID": "dddd1ca8-4053-454b-ad55-d4ace18aaceb",
+            "UUID": "44fbf21d-7364-4d56-9e58-fe7de6e83875",
             "Type": "URI",
             "Hash": "URI~CONTENT~FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/README.md",
             "Path": "FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/README.md",
@@ -118,7 +154,7 @@
             "Nature": "text",
             "Format": "markdown",
             "Schema": "Default",
-            "Content": "# cryptbrau\nSimple browser-based symmetric encryption.  Uses the simple-encryptor library on npm.\n\nAlso, boy howdy.  Can't get browserify to do what I want.  So for now, whatever.\n\n## Example\nBasic ES6 class:\n\n```js\n// Classes are used just like ES5 constructor functions:\nvar libEncryptor = cryptbrau({Key:'SomeVerySecureKeyReally', Salt:'SomeKindOfSalt'});\n\nvar tmpMessage = 'ThisIsAMessage.';\nvar tmpEncryptedMessage = libEncryptor.encrypt(tmpMessage);\n\nconsole.log('Message:   '+tmpMessage);\nconsole.log('Encrypted: '+tmpEncryptedMessage);\nconsole.log('Decrypted: '+libEncryptor.decrypt(tmpEncryptedMessage));\n```\n",
+            "Content": "# CryptBrau\n\nSimple symmetric encryption for Node.js and the browser. Wraps the [simple-encryptor](https://www.npmjs.com/package/simple-encryptor) library with a key+salt configuration pattern and lazy encryptor initialization.\n\n[![npm version](https://badge.fury.io/js/cryptbrau.svg)](https://badge.fury.io/js/cryptbrau)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n\n---\n\n## Features\n\n- **Symmetric Encryption** - Encrypt and decrypt messages with a shared key and salt\n- **Lazy Initialization** - The encryptor is created on first use, not at construction time\n- **Key + Salt Pattern** - Concatenates a key and salt string to build the full encryption key, with automatic minimum-length padding\n- **Browser Compatible** - Works in both Node.js and browser environments via the bundled browser shim\n\n## Installation\n\n```bash\nnpm install cryptbrau\n```\n\n## Quick Start\n\n```javascript\nconst cryptBrau = require('cryptbrau');\n\nlet encryptor = cryptBrau({ Key: 'MySecretKey', Salt: 'MySaltValue' });\n\nlet encrypted = encryptor.encrypt('Hello, World!');\nconsole.log('Encrypted:', encrypted);\n\nlet decrypted = encryptor.decrypt(encrypted);\nconsole.log('Decrypted:', decrypted); // \"Hello, World!\"\n```\n\n## Usage\n\n### Object Configuration\n\nPass an options object with `Key` and `Salt` properties:\n\n```javascript\nlet encryptor = cryptBrau({ Key: 'SomeVerySecureKeyReally', Salt: 'SomeKindOfSalt' });\n```\n\n### String Shorthand\n\nPass a string directly and it will be used as the key with a default salt:\n\n```javascript\nlet encryptor = cryptBrau('MySecretKey');\n```\n\n### Browser Usage\n\nInclude the browser bundle and access via `window.cryptBrau`:\n\n```html\n<script src=\"lib/cryptbrau.js\"></script>\n<script>\n    var encryptor = cryptBrau({ Key: 'BrowserKey', Salt: 'BrowserSalt' });\n    var encrypted = encryptor.encrypt('Secret message');\n</script>\n```\n\n## API\n\n### `cryptBrau(pOptions)`\n\nCreate an encryptor instance.\n\n| Parameter | Type | Description |\n|-----------|------|-------------|\n| `pOptions` | `Object` or `String` | Configuration object with `Key` and `Salt`, or a string used as the key |\n\nReturns an encryptor object with `encrypt` and `decrypt` methods.\n\n**Options:**\n\n| Property | Type | Default | Description |\n|----------|------|---------|-------------|\n| `Key` | `String` | `'ThisIsNotSecureEnough.'` | The encryption key |\n| `Salt` | `String` | `'0000000000000000'` | Salt appended to the key |\n\nThe key and salt are concatenated to form the full encryption key. If the combined string is shorter than 16 characters, it is padded automatically.\n\n### `encryptor.encrypt(pMessage)`\n\nEncrypt a message string. Returns the encrypted string.\n\n### `encryptor.decrypt(pMessage)`\n\nDecrypt an encrypted message string. Returns the original plaintext.\n\n## Part of the Retold Framework\n\nCryptBrau is used in the Pict ecosystem for client-side encryption:\n\n- [pict](https://github.com/stevenvelozo/pict) - UI framework\n- [fable](https://github.com/stevenvelozo/fable) - Application services framework\n\n## Related Packages\n\n- [fable](https://github.com/stevenvelozo/fable) - Application services framework\n\n## License\n\nMIT\n\n## Contributing\n\nPull requests are welcome. For details on our code of conduct, contribution process, and testing requirements, see the [Retold Contributing Guide](https://github.com/stevenvelozo/retold/blob/main/docs/contributing.md).\n",
             "Labels": [
                 "__LABELSET_TYPE",
                 "FILE",
@@ -136,15 +172,15 @@
                 "Default"
             ],
             "FSTAT": {
-                "Size": 618,
-                "Created": "2024-01-14T20:54:27.234Z",
-                "Modified": "2024-01-14T20:54:27.234Z",
-                "Accessed": "2024-01-14T20:54:28.386Z",
+                "Size": 3418,
+                "Created": "2026-02-17T15:40:42.633Z",
+                "Modified": "2026-02-17T16:56:43.542Z",
+                "Accessed": "2026-02-17T16:56:44.050Z",
                 "Mode": 33188
             }
         },
         "URI~CONTENT~FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/browser.js": {
-            "UUID": "9207b2a8-e8c6-4cf2-8cc0-840c8e19a1f7",
+            "UUID": "b2bc50a6-2d27-4acd-b56f-9a892dda0c14",
             "Type": "URI",
             "Hash": "URI~CONTENT~FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/browser.js",
             "Path": "FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/browser.js",
@@ -180,7 +216,7 @@
             }
         },
         "URI~CONTENT~FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/dist/indoctrinate_content_staging/Indoctrinate-Catalog-AppData.json": {
-            "UUID": "6f5d5bb7-286f-4db2-b14f-2f65ea2c4e50",
+            "UUID": "58ab6438-eb93-4516-a086-59626188256f",
             "Type": "URI",
             "Hash": "URI~CONTENT~FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/dist/indoctrinate_content_staging/Indoctrinate-Catalog-AppData.json",
             "Path": "FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/dist/indoctrinate_content_staging/Indoctrinate-Catalog-AppData.json",
@@ -214,13 +250,48 @@
             "FSTAT": {
                 "Size": 435,
                 "Created": "2026-02-15T21:46:16.328Z",
-                "Modified": "2026-02-15T21:46:16.405Z",
-                "Accessed": "2026-02-15T21:46:16.328Z",
+                "Modified": "2026-02-18T04:40:00.928Z",
+                "Accessed": "2026-02-15T21:53:36.036Z",
+                "Mode": 33188
+            }
+        },
+        "URI~CONTENT~FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/docs/.nojekyll": {
+            "UUID": "eb540212-18d8-4d6e-95d7-6cbf0d6c2f0e",
+            "Type": "URI",
+            "Hash": "URI~CONTENT~FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/docs/.nojekyll",
+            "Path": "FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/docs/.nojekyll",
+            "Location": "/Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/docs",
+            "Name": ".nojekyll",
+            "MimeType": null,
+            "Nature": "UNKNOWN",
+            "Format": "UNKNOWN",
+            "Schema": "Default",
+            "Content": false,
+            "Labels": [
+                "__LABELSET_TYPE",
+                "FILE",
+                "__LABELSET_ADDRESS",
+                "docs",
+                "__LABELSET_NAME",
+                "__LABELSET_EXTENSION",
+                "",
+                "__LABELSET_FILENAME",
+                ".nojekyll",
+                "__LABELSET_FULLPATH",
+                "FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/docs/.nojekyll",
+                "__LABELSET_FORMAT",
+                "UNKNOWN",
+                "Default"
+            ],
+            "FSTAT": {
+                "Created": "2026-02-15T21:46:16.818Z",
+                "Modified": "2026-02-15T21:46:16.823Z",
+                "Accessed": "2026-02-16T15:01:33.472Z",
                 "Mode": 33188
             }
         },
         "URI~CONTENT~FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/docs/README.md": {
-            "UUID": "f2496c14-8656-4dcd-b5f9-449a92456d8e",
+            "UUID": "81eb55d8-e27a-4da3-b2b3-3f1b953909ad",
             "Type": "URI",
             "Hash": "URI~CONTENT~FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/docs/README.md",
             "Path": "FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/docs/README.md",
@@ -252,12 +323,12 @@
                 "Size": 3343,
                 "Created": "2026-02-15T04:01:04.434Z",
                 "Modified": "2026-02-15T04:01:04.434Z",
-                "Accessed": "2026-02-15T04:01:05.656Z",
+                "Accessed": "2026-02-15T21:53:36.037Z",
                 "Mode": 33188
             }
         },
         "URI~CONTENT~FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/docs/_sidebar.md": {
-            "UUID": "9a6ddf3e-dea8-400c-97fa-5c27a2ff827c",
+            "UUID": "0f6ddeed-fab9-432e-beee-92835ae41d2a",
             "Type": "URI",
             "Hash": "URI~CONTENT~FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/docs/_sidebar.md",
             "Path": "FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/docs/_sidebar.md",
@@ -289,12 +360,12 @@
                 "Size": 250,
                 "Created": "2026-02-15T04:00:41.603Z",
                 "Modified": "2026-02-15T04:00:41.603Z",
-                "Accessed": "2026-02-15T04:00:42.633Z",
+                "Accessed": "2026-02-15T21:53:36.037Z",
                 "Mode": 33188
             }
         },
         "URI~CONTENT~FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/docs/_topbar.md": {
-            "UUID": "fddb61ef-d1cd-4013-8313-755525807839",
+            "UUID": "6acda0d3-05ca-41a5-aedb-6c7af6d2f355",
             "Type": "URI",
             "Hash": "URI~CONTENT~FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/docs/_topbar.md",
             "Path": "FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/docs/_topbar.md",
@@ -326,12 +397,12 @@
                 "Size": 117,
                 "Created": "2026-02-15T04:00:42.600Z",
                 "Modified": "2026-02-15T04:00:42.600Z",
-                "Accessed": "2026-02-15T04:00:43.824Z",
+                "Accessed": "2026-02-15T21:53:36.037Z",
                 "Mode": 33188
             }
         },
         "URI~CONTENT~FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/docs/api.md": {
-            "UUID": "a977d787-6237-482a-a307-7737c8e18bd3",
+            "UUID": "e21b7c9c-087b-402f-b426-a3f516669b97",
             "Type": "URI",
             "Hash": "URI~CONTENT~FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/docs/api.md",
             "Path": "FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/docs/api.md",
@@ -363,12 +434,12 @@
                 "Size": 3733,
                 "Created": "2026-02-15T04:01:22.239Z",
                 "Modified": "2026-02-15T04:01:22.239Z",
-                "Accessed": "2026-02-15T04:01:23.995Z",
+                "Accessed": "2026-02-15T21:53:36.037Z",
                 "Mode": 33188
             }
         },
         "URI~CONTENT~FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/docs/cover.md": {
-            "UUID": "c29e1177-f1cb-42af-bc69-655ca35020cb",
+            "UUID": "755a9cf9-f7f3-44aa-b784-f03ebcb5835c",
             "Type": "URI",
             "Hash": "URI~CONTENT~FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/docs/cover.md",
             "Path": "FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/docs/cover.md",
@@ -400,12 +471,87 @@
                 "Size": 711,
                 "Created": "2026-02-15T04:00:40.519Z",
                 "Modified": "2026-02-15T04:00:40.519Z",
-                "Accessed": "2026-02-15T04:00:43.325Z",
+                "Accessed": "2026-02-15T21:53:36.037Z",
+                "Mode": 33188
+            }
+        },
+        "URI~CONTENT~FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/docs/css/docuserve.css": {
+            "UUID": "16fc4f50-5861-4baf-8840-72ad7a05caf7",
+            "Type": "URI",
+            "Hash": "URI~CONTENT~FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/docs/css/docuserve.css",
+            "Path": "FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/docs/css/docuserve.css",
+            "Location": "/Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/docs/css",
+            "Name": "docuserve.css",
+            "MimeType": "text/css",
+            "Nature": "text",
+            "Format": "css",
+            "Schema": "Default",
+            "Content": false,
+            "Labels": [
+                "__LABELSET_TYPE",
+                "FILE",
+                "__LABELSET_ADDRESS",
+                "docs",
+                "css",
+                "__LABELSET_NAME",
+                "docuserve",
+                "__LABELSET_EXTENSION",
+                ".css",
+                "__LABELSET_FILENAME",
+                "docuserve.css",
+                "__LABELSET_FULLPATH",
+                "FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/docs/css/docuserve.css",
+                "__LABELSET_FORMAT",
+                "css",
+                "Default"
+            ],
+            "FSTAT": {
+                "Size": 1263,
+                "Created": "2026-02-15T21:42:39.672Z",
+                "Modified": "2026-02-15T21:46:16.821Z",
+                "Accessed": "2026-02-15T21:53:36.037Z",
+                "Mode": 33188
+            }
+        },
+        "URI~CONTENT~FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/docs/index.html": {
+            "UUID": "5f05fe95-e775-4a31-9f9d-6b3d3803994f",
+            "Type": "URI",
+            "Hash": "URI~CONTENT~FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/docs/index.html",
+            "Path": "FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/docs/index.html",
+            "Location": "/Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/docs",
+            "Name": "index.html",
+            "MimeType": "text/html",
+            "Nature": "text",
+            "Format": "html",
+            "Schema": "Default",
+            "Content": false,
+            "Labels": [
+                "__LABELSET_TYPE",
+                "FILE",
+                "__LABELSET_ADDRESS",
+                "docs",
+                "__LABELSET_NAME",
+                "index",
+                "__LABELSET_EXTENSION",
+                ".html",
+                "__LABELSET_FILENAME",
+                "index.html",
+                "__LABELSET_FULLPATH",
+                "FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/docs/index.html",
+                "__LABELSET_FORMAT",
+                "html",
+                "Default"
+            ],
+            "FSTAT": {
+                "Size": 1652,
+                "Created": "2026-02-15T21:42:39.712Z",
+                "Modified": "2026-02-15T21:46:16.821Z",
+                "Accessed": "2026-02-15T21:53:36.037Z",
                 "Mode": 33188
             }
         },
         "URI~CONTENT~FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/docs/retold-catalog.json": {
-            "UUID": "8c33b28a-e91d-4dbb-98ab-6a1fdbb88d71",
+            "UUID": "92d96789-99d9-43dd-ac88-a7c9a9a0ce47",
             "Type": "URI",
             "Hash": "URI~CONTENT~FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/docs/retold-catalog.json",
             "Path": "FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/docs/retold-catalog.json",
@@ -438,12 +584,51 @@
                 "Size": 443,
                 "Created": "2026-02-15T21:46:16.333Z",
                 "Modified": "2026-02-15T21:46:16.333Z",
-                "Accessed": "2026-02-15T21:46:16.333Z",
+                "Accessed": "2026-02-15T21:53:36.037Z",
+                "Mode": 33188
+            }
+        },
+        "URI~CONTENT~FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/docs/retold-keyword-index.json": {
+            "UUID": "488267dd-019e-43b3-a549-e4883c3ef63d",
+            "Type": "URI",
+            "Hash": "URI~CONTENT~FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/docs/retold-keyword-index.json",
+            "Path": "FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/docs/retold-keyword-index.json",
+            "Location": "/Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/docs",
+            "Name": "retold-keyword-index.json",
+            "MimeType": "application/json",
+            "Nature": "application",
+            "Format": "json",
+            "Schema": "Default",
+            "Content": false,
+            "Labels": [
+                "__LABELSET_TYPE",
+                "FILE",
+                "__LABELSET_ADDRESS",
+                "docs",
+                "__LABELSET_NAME",
+                "retold",
+                "keyword",
+                "index",
+                "__LABELSET_EXTENSION",
+                ".json",
+                "__LABELSET_FILENAME",
+                "retold-keyword-index.json",
+                "__LABELSET_FULLPATH",
+                "FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/docs/retold-keyword-index.json",
+                "__LABELSET_FORMAT",
+                "json",
+                "Default"
+            ],
+            "FSTAT": {
+                "Size": 269,
+                "Created": "2026-02-15T21:46:16.410Z",
+                "Modified": "2026-02-15T21:46:16.410Z",
+                "Accessed": "2026-02-15T21:53:36.037Z",
                 "Mode": 33188
             }
         },
         "URI~CONTENT~FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/index.js": {
-            "UUID": "32d9c167-f76b-4f11-9dba-98dc6e8159b5",
+            "UUID": "da65408c-fee8-4d94-886c-10d2202cf090",
             "Type": "URI",
             "Hash": "URI~CONTENT~FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/index.js",
             "Path": "FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/index.js",
@@ -479,7 +664,7 @@
             }
         },
         "URI~CONTENT~FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/lib/cryptbrau.js": {
-            "UUID": "282978c7-8337-408d-a6c0-ebb700ad797a",
+            "UUID": "7f91827d-9ec7-4617-8b7a-91d3a096e6b3",
             "Type": "URI",
             "Hash": "URI~CONTENT~FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/lib/cryptbrau.js",
             "Path": "FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/lib/cryptbrau.js",
@@ -516,7 +701,7 @@
             }
         },
         "URI~CONTENT~FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/package-lock.json": {
-            "UUID": "4f8f38bb-0f2a-430a-a817-6942175b1e2c",
+            "UUID": "535ed35f-7b86-4db5-8c41-d71172c9a03a",
             "Type": "URI",
             "Hash": "URI~CONTENT~FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/package-lock.json",
             "Path": "FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/package-lock.json",
@@ -548,12 +733,12 @@
                 "Size": 437350,
                 "Created": "2026-02-15T21:42:42.673Z",
                 "Modified": "2026-02-15T21:42:42.673Z",
-                "Accessed": "2026-02-15T21:42:42.673Z",
+                "Accessed": "2026-02-15T21:53:36.037Z",
                 "Mode": 33188
             }
         },
         "URI~CONTENT~FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/package.json": {
-            "UUID": "5adbf94a-6924-4527-9c44-16f61b6d13ef",
+            "UUID": "4a0a386e-0fd9-4b55-bf05-b266486272a2",
             "Type": "URI",
             "Hash": "URI~CONTENT~FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/package.json",
             "Path": "FILE://Users/stevenvelozo/Code/retold/modules/pict/cryptbrau/package.json",
@@ -608,7 +793,7 @@
                 "Size": 654,
                 "Created": "2024-01-14T20:54:27.236Z",
                 "Modified": "2026-02-15T21:42:42.589Z",
-                "Accessed": "2026-02-15T21:46:10.578Z",
+                "Accessed": "2026-02-15T21:53:36.039Z",
                 "Mode": 33188
             }
         }
