@@ -20,6 +20,6 @@
     "simple-encryptor": "^1.1.0"
   },
   "devDependencies": {
-    "quackage": "^1.0.58"
+    "quackage": "^1.0.59"
   }
 }
